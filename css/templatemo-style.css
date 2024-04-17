@@ -5,7 +5,9 @@ Ultra Profile
 https://templatemo.com/tm-464-ultra-profile
 
 */
-
+:root{
+  --main-color: green;
+}
 body {
   background: #ffffff;
   font-family: 'Raleway', sans-serif;
@@ -55,16 +57,16 @@ hr {
   line-height: 45px;
   letter-spacing: 1px;
 }
-.navbar-default .navbar-nav li a:hover { color: #eb5424; }
+.navbar-default .navbar-nav li a:hover { color: var(--main-color); }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #eb5424;
+  color: var(--main-color);
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #eb5424;
+  color: var(--main-color);
   background-color: transparent;
 }
 .navbar-default .navbar-toggle {
@@ -72,7 +74,7 @@ hr {
   padding-top: 10px;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background: #eb5424;
+  background: var(--main-color);
   border-color: transparent;
 }
 .navbar-default .navbar-toggle:hover,
@@ -90,6 +92,8 @@ hr {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
@@ -103,13 +107,13 @@ hr {
  }
 .tm-home-title { font-size: 60px; }
 .tm-home-subtitle {
-  color: #eb5424;
+  color: var(--main-color);
   font-weight: bold;
   padding-bottom: 40px;
   letter-spacing: 2px;
 }
 .tm-view-more-btn {
-  background: #eb5424;
+  background: var(--main-color);
   color: #ffffff;
   border: none;
   border-radius: 2px;
@@ -122,7 +126,16 @@ hr {
 }
 .tm-view-more-btn:hover {
   background: #ffffff;
-  color: #eb5424;
+  color: var(--main-color);
+}
+.containerTech{
+  width: 90%;
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(150px, auto);
+  align-items: center;
+
+
 }
 /* END HOME */
 
@@ -132,7 +145,7 @@ hr {
   padding-bottom: 100px;
 }
 .tm-work-h3 {
-  color: #eb5424;
+  color: var(--main-color);
   font-size: 20px;
   font-weight: bold;
   letter-spacing: 1px;
@@ -146,7 +159,7 @@ hr {
   -webkit-transition: all 0.6s ease-in;
           transition: all 0.6s ease-in;
 }
-.work-wrapper:hover { border-color: #eb5424; }
+.work-wrapper:hover { border-color: var(--main-color); }
 .work-wrapper .fa {
   color: #888888;
   font-size: 60px;
@@ -197,7 +210,7 @@ hr {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: #eb5424;
+  background: var(--main-color);
   color: #ffffff;
   top: 0;
   right: 0;
@@ -257,7 +270,7 @@ hr {
 .filter-wrapper li a:focus,
  .filter-wrapper li a:hover,
  .filter-wrapper li a.selected {
-  background: #eb5424;
+  background: var(--main-color);
   border-color: transparent;
   color: #ffffff;
 }
@@ -297,7 +310,7 @@ hr {
 /* END PORTFOLIO */
 
 /* START RESUME */
-.tm-red-text { color: #eb5424; }
+.tm-red-text { color: var(--main-color); }
 .tm-info-label {
   font-weight: bold;
   display: inline-block;
@@ -308,7 +321,7 @@ hr {
   border-radius: 2px;
   height: 4px;
 }
-.progress-bar-danger { background: #eb5424; }
+.progress-bar-danger { background: var(--main-color); }
 .tm-progress-label {
   font-size: 12px;
   font-weight: bold;
@@ -346,14 +359,12 @@ hr {
   padding: 0;
   margin: 0;
 }
-.facebook:hover,
-.twitter:hover,
-.pinterest:hover {
+.linkedin:hover,
+.github:hover {
   background: #202020;
 }
-.facebook { background: #3b5998; }
-.twitter { background: #55acee; }
-.pinterest { background: #cc2127; }
+.linkedin { background: #0E76A8; }
+.github { background: #1B8138; }
 .media {
   padding: 80px 40px 80px 40px;
   -webkit-transition: all 0.6s ease-in;
