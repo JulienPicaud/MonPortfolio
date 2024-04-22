@@ -79,6 +79,10 @@ hr {
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus { background-color: transparent }
+
+.Logo-wrapper{
+padding-top: 5px;
+}
 /* END NAVIGATION */
 
 /* START HOME */
@@ -148,8 +152,8 @@ hr {
 
 /* START WORK */
 .tm-padding-top-bottom-100 {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .tm-work-h3 {
   color: var(--main-color);
@@ -159,6 +163,7 @@ hr {
   padding-bottom: 10px;
 }
 .work-wrapper {
+  margin-bottom: 10px;
   border: 1px solid #666;
   border-radius: 2px;
   text-align: center;
@@ -177,7 +182,7 @@ hr {
 /* START PORTFOLIO */
 .tm-portfolio {
   background: #f8f8f8;
-  padding-top: 80px;
+  padding-top: 30px;
 }
 .tm-portfolio .container {
   width: 100%;
@@ -402,8 +407,6 @@ hr {
 /* START CONTACT */
 .tm-contact {
   text-align: center;
-  padding-top: 80px;
-  padding-bottom: 40px;
 }
 .form-control {
   background: transparent;
@@ -421,7 +424,7 @@ hr {
   color: #ffffff;
 }
 input { height: 50px; }
-.tm-contact p { padding-top: 40px; }
+.tm-contact p { padding-top: 10px; }
 /* END CONTACT */
 
 @media screen and (max-device-width: 1024px){
