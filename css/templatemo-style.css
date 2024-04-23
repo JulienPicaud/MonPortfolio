@@ -319,6 +319,19 @@ padding-top: 5px;
   display: block;
   height: auto;
 }
+.button-overlay {
+  text-decoration: none;
+  color: white;
+  padding: 2px 5px;
+  margin: 2px;
+  background: black;
+  border-radius: 2px;
+  cursor:pointer;
+}
+.button-overlay:hover {
+  color: grey;
+  text-decoration: none;
+}
 /* END PORTFOLIO */
 
 /* START RESUME */
