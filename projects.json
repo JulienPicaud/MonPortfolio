@@ -1,10 +1,61 @@
-{
-"id": "c67ab8a7",
-"title": "Appartement cosy",
-"cover": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
-"description": "Votre maison loin de chez vous. Que vous veniez de l'autre bout du monde, ou juste de quelques stations de RER, vous vous sentirez chez vous dans notre appartement.",
-"urlRepo": "",
-"urlOnline": ""
-}
-
-    
+[
+    {
+        "name": "Booki",
+        "type":["frontend","maintenance"],
+        "image": "images/1.png",
+        "technologies": "HTML, CSS",
+        "description": "Interface utilisateur pour une agence immobilière.",
+        "github": "https://github.com/JulienPicaud/OC_P2_Booki",
+        "githubPage": "https://julienpicaud.github.io/OC_P2_Booki/"
+    },
+    {
+        "name": "Portfolio Sophie Bluel",
+        "type":["frontend"],
+        "image": "images/2.png",
+        "technologies": "HTML, CSS, JavaScript",
+        "description": "Gestion des données utilisateurs, manipulation du DOM",
+        "github": "https://github.com/JulienPicaud/OC_P3_SophieBluel"
+    },
+    {
+        "name": "Nina Carducci",
+        "type":["frontend","maintenance"],
+        "image": "images/3.png",
+        "technologies": "Javascript",
+        "description": "Optimisation des performances, debuggages et actions SEO",
+        "github": "https://github.com/JulienPicaud/OC_P5_Nina-Carducci",
+        "githubPage": "https://julienpicaud.github.io/OC_P5_Nina-Carducci/"
+    },
+    {
+        "name": "Kasa agence immobiliere",
+        "type":["frontend"],
+        "image": "images/4.png",
+        "technologies": "ReactJS",
+        "description": "Utilisation de React router, création de composants pour un site de location immobilière",
+        "github": "https://github.com/JulienPicaud/OC_P6_Kasa",
+        "githubPage": "https://julienpicaud.github.io/OC_P6_Kasa/"
+    },
+    {
+        "name": "Mon vieux grimoire",
+        "type":["backend"],
+        "image": "images/5.png",
+        "technologies": "NodeJS, ExpressJS, MongoDB",
+        "description": "Implémentation d'un modèle, mise en oeuvre d'opération CRUD, stocker des données sécurisées.",
+        "github": "https://github.com/JulienPicaud/OC_P7_Monvieuxgrimoire"
+    },
+    {
+        "name": "Site Web-Alliance",
+        "type":["frontend","cms"],
+        "image": "images/6.png",
+        "technologies": "Wordpress, CSS, Javascript",
+        "description": "Amélioration du template de base avec des élements CSS et JS sur-mesure.",
+        "website": "https://www.web-alliance.fr/"
+    },
+    {
+        "name": "Transfert Service",
+        "type":["frontend","cms","maintenance"],
+        "image": "images/7.png",
+        "technologies": "Wordpress, CSS, Javascript",
+        "description": "Création de A à Z ce site client à l'aide de wordpress et d'élements créés sur-mesure.",
+        "website": "https://www.transfertservice.fr/"
+    }
+]
