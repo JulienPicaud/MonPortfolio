@@ -1,16 +1,7 @@
-// Suppose que vous avez un fichier project.json contenant vos données de projet
-// Voici un exemple de structure JSON pour un projet :
-/*
-
-*/
-
-// Récupérer les données du fichier JSON
 fetch('projects.json')
     .then(response => response.json())
     .then(projects => {
-        // Boucle sur chaque projet pour créer la structure HTML
-        projects.forEach(project => {
-            // Création des éléments HTML
+        projects.forEach(project => {            
             const isoBox = document.createElement('div');
             isoBox.classList.add('iso-box', 'col-md-3', 'col-sm-3', 'col-xs-12');
             project.type.forEach(type => {
