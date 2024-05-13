@@ -62,8 +62,7 @@ fetch('projects.json')
 
             isoBox.appendChild(portfolioThumb);
 
-            // Ajouter la structure HTML au document
-            document.getElementById('main-container-project').appendChild(isoBox); // Remplacez 'yourContainer' par l'ID de votre conteneur
+            document.getElementById('main-container-project').appendChild(isoBox); 
         });
     })
     .catch(error => console.error('Erreur lors de la récupération des données du fichier JSON :', error));
