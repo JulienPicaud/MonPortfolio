@@ -1,0 +1,44 @@
+[
+      {
+        "name": "HTML",
+        "imagePath": "./images/htmlicon.png",
+        "altText": "Icone HTML"
+      },
+      {
+        "name": "CSS",
+        "imagePath": "./images/iconcss.png",
+        "altText": "Icone CSS"
+      },
+      {
+        "name": "JavaScript",
+        "imagePath": "./images/jsicone.webp",
+        "altText": "Icone JavaScript"
+      },
+      {
+        "name": "React",
+        "imagePath": "./images/reactIcon.webp",
+        "altText": "Icone React"
+      },
+      {
+        "name": "Node.js",
+        "imagePath": "./images/nodejs.png",
+        "altText": "Icone Node.js"
+      },
+      {
+        "name": "Express.js",
+        "imagePath": "./images/expressJS.png",
+        "altText": "Icone Express.js"
+      },
+      {
+        "name": "MongoDB",
+        "imagePath": "./images/mongodbIcon.png",
+        "altText": "Icone MongoDB"
+      },
+      {
+        "name": "Github",
+        "imagePath": "./images/githubicon.png",
+        "altText": "Icone GitHub"
+      }
+]
+
+  

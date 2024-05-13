@@ -146,6 +146,9 @@ padding-top: 5px;
   background-color: #ffffff75;
   border-radius: 2px;
 }
+img.skills{
+  width:40%;
+}
 /* END HOME */
 
 /* START WORK */
@@ -444,6 +447,9 @@ input { height: 50px; }
 @media screen and (max-device-width: 1024px){
   .templatemo-home {
     background-attachment: scroll;
+  }
+  img.skills{
+    width:80%;
   }
 }
 
