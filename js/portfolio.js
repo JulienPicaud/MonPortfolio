@@ -29,27 +29,31 @@ fetch('projects.json')
             const description = document.createElement('p');
             description.textContent = project.description;
 
-            const githubLink = document.createElement('a');
-            githubLink.target = '_blank';
-            githubLink.href = project.github;
-            githubLink.classList.add('button-overlay');
-            githubLink.textContent = 'GitHub';
-
-            const githubPageLink = document.createElement('a');
-            githubPageLink.target = '_blank';
-            githubPageLink.href = project.githubPage;
-            githubPageLink.classList.add('button-overlay');
-            githubPageLink.textContent = 'GitHub Page';
-
-            // Ajouter les éléments à la structure HTML
             portfolioOverlay.appendChild(title);
             portfolioOverlay.appendChild(technologies);
             portfolioOverlay.appendChild(description);
-            portfolioOverlay.appendChild(githubLink);
-            portfolioOverlay.appendChild(githubPageLink);
 
             portfolioThumb.appendChild(img);
             portfolioThumb.appendChild(portfolioOverlay);
+
+
+            if (project.github) {
+                const githubLink = document.createElement('a');
+                githubLink.target = '_blank';
+                githubLink.href = project.github;
+                githubLink.classList.add('button-overlay');
+                githubLink.textContent = 'GitHub';
+                portfolioOverlay.appendChild(githubLink);
+            }
+
+            if (project.githubPage) {
+                const githubPageLink = document.createElement('a');
+                githubPageLink.target = '_blank';
+                githubPageLink.href = project.githubPage;
+                githubPageLink.classList.add('button-overlay');
+                githubPageLink.textContent = 'Site en ligne';
+                portfolioOverlay.appendChild(githubPageLink);
+            }
 
             isoBox.appendChild(portfolioThumb);
 

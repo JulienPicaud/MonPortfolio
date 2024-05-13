@@ -48,7 +48,7 @@
         "image": "images/6.png",
         "technologies": "Wordpress, CSS, Javascript",
         "description": "Amélioration du template de base avec des élements CSS et JS sur-mesure.",
-        "github": "https://www.web-alliance.fr/"
+        "githubPage": "https://www.web-alliance.fr/"
     },
     {
         "name": "Transfert Service",
@@ -56,6 +56,6 @@
         "image": "images/7.png",
         "technologies": "Wordpress, CSS, Javascript",
         "description": "Création de A à Z ce site client à l'aide de wordpress et d'élements créés sur-mesure.",
-        "github": "https://www.transfertservice.fr/"
+        "githubPage": "https://www.transfertservice.fr/"
     }
 ]
