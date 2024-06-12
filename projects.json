@@ -57,5 +57,14 @@
         "technologies": "Wordpress, CSS, Javascript",
         "description": "Création de A à Z ce site client à l'aide de wordpress et d'élements créés sur-mesure.",
         "githubPage": "https://www.transfertservice.fr/"
+    },
+    {
+        "name": "EvoGym",
+        "type":["frontend"],
+        "image": "images/Evogym.png",
+        "technologies": "ReactJS, Vite, Typescript",
+        "description": "Projet fictif d'un site onepage pour expérimenter Typescript.",
+        "github": "https://github.com/JulienPicaud/Evogym-typescript",
+        "githubPage": "https://evogym-typescript-8w6.pages.dev/"
     }
 ]
